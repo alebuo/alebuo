@@ -6,9 +6,6 @@ I specialize in server management and website optimization. Currently working on
 📓 Blog: (https://clickblog.ar/)
 
 
-[Please leave a star on this repository if you liked my profile! ⭐️](https://github.com/alebuo)
-
-
 ### Thank you for visiting my GitHub profile 🙌
 
 
@@ -18,13 +15,13 @@ I specialize in server management and website optimization. Currently working on
 #### Skills 
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/-Pandas-blue)](https://pandas.pydata.org/)
 [![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white)](https://php.net)
+[![MySQL](https://img.shields.io/badge/-MySQL-F29111?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=MySQL&logoColor=white&style=flat)
 [![Kotlin](https://img.shields.io/badge/Kotlin-%230095D5.svg?style=flat&logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat&logo=firebase)](https://firebase.google.com)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org)
-[![Pandas](https://img.shields.io/badge/-Pandas-blue)](https://pandas.pydata.org/)
-[![MySQL](https://img.shields.io/badge/-MySQL-F29111?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![CSS](https://img.shields.io/badge/CSS-★★★★-blue)](https://www.w3.org/Style/CSS/Overview.en.html)
 [![HTML](https://img.shields.io/badge/HTML-★★★★-orange)](https://html.com/)
 
