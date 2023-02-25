@@ -1,7 +1,6 @@
 ## ¡Hi! 👋
 
-I'm a passionate developer with expertise in Python, TensorFlow, Kotlin, PHP, SQL, and more. 
-I specialize in server management and website optimization. Currently working on private projects to push my limits in software development.
+I'm a passionate developer with expertise in Python, TensorFlow, Kotlin, PHP, SQL, and more. Currently working on private projects to push my limits in software development.
 
 📓 Blog: (https://clickblog.ar/)
 
