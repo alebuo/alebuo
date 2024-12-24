@@ -1,7 +1,6 @@
 ## ¡Hi! 👋
 
-I'm a passionate developer with expertise in Python, TensorFlow, Kotlin, PHP, SQL, and more. Currently working on private projects to push my limits in software development.
-
+Passionate and highly motivated developer with expertise in web and mobile development.
 
 ### Thank you for visiting my GitHub profile 🙌
 
