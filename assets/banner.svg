@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" role="img" aria-label="alebuo@click terminal: Alexis Buonasena, mobile and web developer. Apps: Unlock Stats, Device Sensors, MemoTest for Developers, Click Blog.">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.18"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0f2a14"/>
+      <stop offset="100%" stop-color="#050a06"/>
+    </radialGradient>
+    <filter id="phosphor" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="1.3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- One clip per line: commands "type" in (the rect grows), outputs appear at once -->
+    <clipPath id="l1"><rect x="0" y="62" height="34" width="0"><animate attributeName="width" values="0;540" begin="0.4s" dur="1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l2"><rect x="0" y="100" height="34" width="0"><animate attributeName="width" values="0;860" begin="1.6s" dur="0.01s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="0" y="138" height="34" width="0"><animate attributeName="width" values="0;400" begin="2.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="0" y="176" height="34" width="0"><animate attributeName="width" values="0;860" begin="3.7s" dur="0.01s" fill="freeze"/></rect></clipPath>
+    <style>
+      text { font-family: "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace; font-size: 18px; }
+      .prompt { fill: #5cff7a; }
+      .out    { fill: #c8ffd2; }
+      .accent { fill: #ffd166; }
+      .dim    { fill: #3f8f4f; font-size: 13px; }
+      .dim2   { fill: #3f8f4f; }
+      .cursor { fill: #5cff7a; animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .crt { animation: flicker 6s infinite; }
+      @keyframes flicker { 0%, 96%, 100% { opacity: 1; } 97% { opacity: .86; } 98% { opacity: 1; } 99% { opacity: .92; } }
+    </style>
+  </defs>
+
+  <rect width="880" height="270" rx="14" fill="url(#glow)"/>
+  <rect x="1" y="1" width="878" height="268" rx="13" fill="none" stroke="#1f5c2b" stroke-width="2"/>
+
+  <!-- window chrome -->
+  <circle cx="26" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="24" r="6" fill="#27c93f"/>
+  <text x="440" y="29" text-anchor="middle" class="dim">alebuo@click: ~ — zsh</text>
+
+  <g class="crt" filter="url(#phosphor)">
+    <text x="28" y="86" class="prompt" clip-path="url(#l1)">alebuo@click:~$ whoami</text>
+    <text x="28" y="124" class="out" clip-path="url(#l2)">Alexis Buonasena · <tspan class="accent">Mobile &amp; web developer</tspan> · Flutter · Kotlin · Firebase</text>
+    <text x="28" y="162" class="prompt" clip-path="url(#l3)">alebuo@click:~$ ls ~/apps</text>
+    <text x="28" y="200" class="out" clip-path="url(#l4)" xml:space="preserve">unlock-stats/  device-sensors/  memotest-dev/  click-blog/  <tspan class="dim2">+ 🔒 private</tspan></text>
+    <text x="28" y="240" class="prompt" opacity="0">alebuo@click:~$<animate attributeName="opacity" values="0;1" begin="4s" dur="0.01s" fill="freeze"/></text>
+    <rect x="196" y="225" width="11" height="19" class="cursor" opacity="0"><animate attributeName="opacity" values="0;1" begin="4s" dur="0.01s" fill="freeze"/></rect>
+  </g>
+
+  <rect width="880" height="270" rx="14" fill="url(#scan)" pointer-events="none"/>
+</svg>

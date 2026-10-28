@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" role="img" aria-label="Play MemoTest for Developers in your browser">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2014"/>
+      <stop offset="100%" stop-color="#07120b"/>
+    </linearGradient>
+    <radialGradient id="amber" cx="80%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text { font-family: "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace; }
+      .title { fill: #d9f7df; font-size: 28px; font-weight: 800; }
+      .green { fill: #5cff7a; }
+      .sub { fill: #8db898; font-size: 14px; }
+      .btn { fill: #03140a; font-size: 15px; font-weight: 700; }
+      .card { transform-box: fill-box; transform-origin: center; animation: flip 4.8s ease-in-out infinite; }
+      .c2 { animation-delay: .6s; } .c3 { animation-delay: 1.2s; } .c4 { animation-delay: 1.8s; } .c5 { animation-delay: 2.4s; }
+      @keyframes flip { 0%, 72%, 100% { transform: scaleX(1); } 79% { transform: scaleX(0); } 86% { transform: scaleX(1); } }
+      .glyph { font-size: 22px; font-weight: 800; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="880" height="170" rx="16" fill="url(#bg)"/>
+  <rect width="880" height="170" rx="16" fill="url(#amber)"/>
+  <rect x="1" y="1" width="878" height="168" rx="15" fill="none" stroke="#2a5a37" stroke-width="2"/>
+
+  <text x="32" y="58" class="title">Got 60 seconds? <tspan class="green">Beat a level.</tspan></text>
+  <text x="32" y="88" class="sub">MemoTest for Developers · web demo · match the logos</text>
+  <rect x="32" y="108" width="226" height="40" rx="9" fill="#5cff7a"/>
+  <text x="145" y="134" class="btn" text-anchor="middle">▶ PLAY IN BROWSER</text>
+
+  <!-- The CSS flip animation sets `transform`, so positioning lives on an outer <g>. -->
+  <g transform="translate(566 40)">
+    <g><g class="card"><rect width="50" height="62" rx="8" fill="#10231a" stroke="#2a5a37"/><text x="25" y="39" class="glyph" fill="#5cff7a">{ }</text></g></g>
+    <g transform="translate(58 0)"><g class="card c2"><rect width="50" height="62" rx="8" fill="#10231a" stroke="#2a5a37"/><text x="25" y="39" class="glyph" fill="#ffd166">&lt;/&gt;</text></g></g>
+    <g transform="translate(116 0)"><g class="card c3"><rect width="50" height="62" rx="8" fill="#10231a" stroke="#2a5a37"/><text x="25" y="39" class="glyph" fill="#4dd8ff">;</text></g></g>
+    <g transform="translate(174 0)"><g class="card c4"><rect width="50" height="62" rx="8" fill="#10231a" stroke="#2a5a37"/><text x="25" y="39" class="glyph" fill="#ff5fa2">//</text></g></g>
+    <g transform="translate(232 0)"><g class="card c5"><rect width="50" height="62" rx="8" fill="#f3f6f4" stroke="#5cff7a" stroke-width="2"/><text x="25" y="40" class="glyph" fill="#7F52FF">K</text></g></g>
+  </g>
+  <text x="707" y="132" class="sub" text-anchor="middle">9 levels · grayscale twins · trap pairs</text>
+</svg>
